@@ -1,0 +1,30 @@
+{
+  "name": "chrpr",
+  "version": "1.0.0",
+  "description": "simple twitter clone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "avi",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.1.0",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "flux": "^2.1.1",
+    "locallydb": "0.0.9",
+    "object-assign": "^3.0.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
