@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Chrpr App</title>
+        <link href="lib/bower_components/skeleton/css/normalize.css" rel="stylesheet">
+        <link href="lib/bower_components/skeleton/css/skeleton.css" rel=stylesheet>
+        <link href="style.css" rel = stylesheet>
+        
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+        <h1> Chrpr </h1>
+        </div>
+        <div class = "row">
+        <div class="six columns">
+            <!-- Login form -->
+            <h2> Login</h2>
+            <form action="/login" method="POST">
+                <p> <label>Username<br/><input type = "text" name="username" id = "username" placeholder="eg. coolguy97"></label></p>
+                <p> <label>Password<br/><input type = "text" name="password" id= "password" placeholder="eg.1234"></label></p>
+                <p><button class="button-primary">Login</button></p>
+            </form> 
+        
+        </div>
+            <!-- Sign up form -->
+            <div class="six columns">
+            <h2>Sign-up</h2>
+            <form action="/signup" method="POST">
+                <p><label>
+                    Full Name<input type=text placeholder="eg. Tommy" name="fullname" class="u-full-width">
+                    </label></p>
+                
+                <p><label>
+                    Email<input type=email name = "email" class="u-full-width">
+                    </label></p>
+                
+                <p> <label>Username<input type = "text" name="username" id = "username" class="u-full-width" 
+                                    placeholder="eg. coolguy97">
+                    </label></p>
+                
+                <p> <label>Password<input type = "text" name="password" id= "password" class="u-full-width"placeholder="eg.1234"></label></p>
+                
+                <p><button class="button-primary">Sign me up!</button></p>
+            </form>
+            </div>
+        
+        
+        </div>
+        </div>
+        
+    </body>
+</html>
